@@ -93,7 +93,7 @@ body {
 }
 
 /*-----------------Navbar Ends-----------*/
-
+/*---------Overview Begins----------*/
 .overview_flex{
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +140,61 @@ text-decoration: none;
       flex-direction: column-reverse;
   }
   .overview_illustration{
+      width: 90%;
+   }
+
+}
+/*------Overview Ends here----------------*/
+
+/*--------About Begins here---------------*/
+#about{
+  margin-top: 10px;
+}
+.about_flex{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.about_img{
+  width: 50%;
+}
+.about_text{
+  margin-top: 10%;
+  max-width: 40%;
+}
+.about_text h3{
+  color: #FB4C47;
+}
+.about_text h1{
+  color: #035755;
+}
+.about_text p{
+  color: #4B4F51;
+  /*font-size: 20px;*/
+  line-height: 215%;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.learn_more_button{
+  background: rgba(250, 86, 82, 0.15);
+  border-radius: 65px;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FA5652;
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (max-width: 600px){
+  .about_flex{
+      margin-left: 10px;
+  }
+  .about_text{
+    max-width: 100%;
+  }
+  .about_img{
       width: 90%;
    }
 
