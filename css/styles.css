@@ -362,15 +362,16 @@ table h3{
   color: #035755 ;
 }
 @media screen and (max-width: 600px){
+  .live_reports{
+    height: 50vh;
+  }
   .map{
     width: 90%;
   }
   .live_reports{
     width: 80%;
   }
-  table{
-    height: 100%;
-  }
+  
 }
 /*--------Map & Reports Ends here---------*/
 
