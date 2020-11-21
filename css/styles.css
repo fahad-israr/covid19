@@ -406,3 +406,38 @@ input[type="submit"] {
     margin-top: 20%;
   }
 }
+
+/*--------Subscribe Ends here---------*/
+
+
+/*--------Footer Begins here---------*/
+#footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  justify-content: space-evenly;
+}
+.footer_nav{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footer_nav a{
+  color: #035755;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+.credit{
+  text-align: center;
+  color: #4B4F51;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 600px){
+  #footer img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
