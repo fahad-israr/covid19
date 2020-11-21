@@ -391,6 +391,12 @@ input[type="text"] {
   padding-right: 50px;
   padding-left: 10px;
 }
+input[type="text"]:active{
+  outline: none;
+}
+input[type="text"]:focus{
+  outline: none;
+}
 
 input[type="submit"] {
   margin-left: -95px;
