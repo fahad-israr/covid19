@@ -393,12 +393,13 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  margin-left: -100px;
+  margin-left: -95px;
   height: 40px;
   line-height: 10px;
   color: white;
   border: 0;
   -webkit-appearance: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px){
